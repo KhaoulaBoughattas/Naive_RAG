@@ -1,3 +1,10 @@
 *.pptx filter=lfs diff=lfs merge=lfs -text
 *.pdf filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
+*.png, filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.extension filter=lfs diff=lfs merge=lfs -text
+\# filter=lfs diff=lfs merge=lfs -text
+Par filter=lfs diff=lfs merge=lfs -text
+exemple: filter=lfs diff=lfs merge=lfs -text
+*.zip, filter=lfs diff=lfs merge=lfs -text
