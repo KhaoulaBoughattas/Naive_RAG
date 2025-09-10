@@ -141,17 +141,20 @@ Le pipeline repose sur **3 couches principales** :
 
 ## Diagramme du pipeline
 
+## Diagramme du pipeline
+
 ```mermaid
 graph TD
-    A[PDF Sources] --> B[Extraction et Nettoyage]
-    B --> C[Chunking]
-    C --> D[Embeddings]
-    D --> E[Vector DB (Qdrant/FAISS)]
-    E --> F[User Query]
-    F --> G[Similarité Cosinus]
-    G --> H[Top-k Chunks]
-    H --> I[LLM (qwen2.5 via Ollama)]
-    I --> J[Réponse Contextualisée]
+    A["PDF Sources"] --> B["Extraction et Nettoyage"]
+    B --> C["Chunking"]
+    C --> D["Embeddings"]
+    D --> E["Vector DB (Qdrant/FAISS)"]
+    E --> F["User Query"]
+    F --> G["Similarité Cosinus"]
+    G --> H["Top-k Chunks"]
+    H --> I["LLM (qwen2.5 via Ollama)"]
+    I --> J["Réponse Contextualisée"]
+
 
 ```
 # ⚙️ Installation & Exécution
